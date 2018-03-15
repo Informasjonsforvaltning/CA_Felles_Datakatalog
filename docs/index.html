@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="model" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Løsningsarkitektur_Felles datakatalog</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) / UI / LAYOUT -->
+	<script type="text/javascript" src="lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui/js/jquery-ui-1.11.2.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui-layout/js/jquery.layout-1.4.4.js"></script>
+	<link type="text/css" rel="stylesheet" href="lib/jquery-ui-layout/css/layout-default-1.4.4.css">
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="css/model.css">
+	<link type="text/css" rel="stylesheet" href="css/i18n.css">
+	<script type="text/javascript" src="js/model.js"></script>
+</head>
+
+<body>
+	<!-- "ui-layout-north" class set (topbar) -->
+	<div class="ui-layout-north">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<span class="navbar-brand">L&#248;sningsarkitektur_Felles datakatalog</span>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#myModal" data-toggle="modal" class="btn go"><span class="i18n-about"></span></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<iframe name="view" class="ui-layout-center" src="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/model.html" scrolling="no"></iframe>
+
+	<div class="ui-layout-west">
+		<iframe name="element" class="ui-layout-south" src="elements/empty-element.html"  scrolling="no"></iframe>
+		<div class="ui-layout-center">
+			<div class="panel panel-default root-panel">
+				<div class="panel-heading root-panel-heading">
+					<b><span class="i18n-modeltree"></span></b>
+				</div>
+				<div class="panel-body root-panel-body">
+					<b><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/model.html" target="view">L&#248;sningsarkitektur_Felles datakatalog</a></b>
+					<ul class="tree">
+					<!-- START OF STRINGTEMPLATE CODE -->
+						<li><span class="i18n-model_content"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+							<ul>
+                                <li><span class="i18n-strategy"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+                                    <ul>
+                                    </ul>
+                                </li>
+								<li><span class="i18n-business_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li><span class="i18n-application_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/6ad1db14-71cc-4405-9a0e-94d55913be25.html" target="element"> Registration </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/0a4d8381-7671-46a8-900d-50441f2214c5.html" target="element"> Search </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/d8ba8e4d-8fe1-4fe0-a43a-016596c140c1.html" target="element"> Harvester </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/eaf70ae4-06ff-4e43-a925-c0093ed8176a.html" target="element"> Registration-BACKEND </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/e89686b9-eb93-4c74-83c8-afc7ad1637d8.html" target="element"> Search-API </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/f3728925-bfc6-4e36-a318-a2d8f132e416.html" target="element"> Harvester-API </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/9f0d9dc6-070e-4831-ba3a-0cf9837205f0.html" target="element"> Felles datakatalog API </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/d830dced-c794-4765-9cec-80d5d7a308a5.html" target="element"> Felles datakatalog portal </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/7302bcd1-72e2-4c4a-b3e4-620f92e1255f.html" target="element"> Registration-DB </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/c34997cc-5b04-4e41-93d6-7ce11a1f0fb2.html" target="element"> Search-DB </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/09272659-ccce-4328-b761-a589513fd9d5.html" target="element"> Harvester-DB </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/0bfedc6b-8f29-4b90-90a5-e351966f977a.html" target="element"> Registration-API </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/5e6dd814-5055-4799-9b4a-de7b8a9c4e42.html" target="element"> ID-porten </a></li>
+
+									</ul>
+								</li>
+								<li><span class="i18n-technology_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li><span class="i18n-motivation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li><span class="i18n-implementation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li><span class="i18n-connectors"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/c411dcfb-1a86-43c3-8a93-c15d7ebeee5a.html" target="element"> Br&#248;nn&#248;ysundregistrene </a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/0ab14ab2-02e5-406f-afb5-5dae7be2a175.html" target="element"> Difi </a></li>
+
+									</ul>
+								</li>
+								<li><span class="i18n-relations"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/c9b842aa-e208-412e-a495-4f869ca9f619.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog API - Harvester-API) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/3b4c900c-ad3a-40e6-8f3c-f75a3fc9ac34.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog API - Registration-BACKEND) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/822fb204-9877-46fc-b5f8-23ece8f42196.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog API - Search-API) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/7a81473a-6e79-4aba-bf87-89f7b10a7ca5.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog portal - Registration) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/bdeeba9c-922a-46bd-95d9-174890dd018c.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog portal - Search) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/1a3ac934-ba80-4198-9cb1-ff0b44169982.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog portal - Harvester) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/5f3eb829-40c9-4bbb-b9b7-271628de3e52.html" target="element">
+															<span class="i18n-elementtype-ServingRelationship"></span>
+														(Search-API - Search) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/bfb0a7ed-5f81-4c9b-9e8e-70bfd92088f9.html" target="element">
+															<span class="i18n-elementtype-ServingRelationship"></span>
+														(Harvester-API - Harvester) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/469491b0-4124-4a34-8806-b6b0ca3bd0e4.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog API - Registration-DB) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/bf283f23-4c37-4595-925e-4a116ab6991c.html" target="element">
+															<span class="i18n-elementtype-ServingRelationship"></span>
+														(Registration-DB - Registration-BACKEND) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/f0a1a8f0-f3cf-473a-8598-51a274d4f17c.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog API - Search-DB) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/958abf6d-3630-4096-9707-d81b36368240.html" target="element">
+															<span class="i18n-elementtype-ServingRelationship"></span>
+														(Search-DB - Search-API) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/8d04898d-dd21-4c6d-8467-6ac9400c666d.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog API - Harvester-DB) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/9cc8f7ce-1944-4420-9e0f-a73cb1d10cff.html" target="element">
+															<span class="i18n-elementtype-ServingRelationship"></span>
+														(Harvester-DB - Harvester-API) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/1c3bdd7c-efa9-44c2-989b-65fcdc2a74c1.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Felles datakatalog API - Registration-API) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/9e7f8c28-fe09-425a-ac38-bbbffb3f4837.html" target="element">
+															<span class="i18n-elementtype-ServingRelationship"></span>
+														(Registration-API - Registration) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/b4b03d2f-b2d9-4db1-b6e2-d0e4f70b2110.html" target="element">
+															<span class="i18n-elementtype-ServingRelationship"></span>
+														(Felles datakatalog API - Felles datakatalog portal) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/442ba6fd-ea21-4b57-a5eb-f62497c4dc0e.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Br&#248;nn&#248;ysundregistrene - Felles datakatalog API) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/16e45775-a31e-45b8-8e12-ad1644b04797.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Br&#248;nn&#248;ysundregistrene - Felles datakatalog portal) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/9073d8fe-a5ad-4547-bb0b-47fd4c613b36.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Difi - ID-porten) 
+													</a></li>
+													<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/elements/32e845d4-f614-4a3a-bcd1-bd0a8163fbb9.html" target="element">
+															autentisering
+														(ID-porten - Felles datakatalog API) 
+													</a></li>
+
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><span class="i18n-views"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+							<ul>
+											<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/views/59d67ac7-e834-4d23-bc6e-ee1d6ea8e60b.html" target="view"> Application Structure </a></li>
+											<li class="tree-element"><a href="5b41df9c-d9d7-40ab-b052-2098d8a45a2d/views/e85d578d-ce60-4f8e-b27b-368a170f7b4f.html" target="view"> Context Diagram </a></li>
+
+							</ul>
+						</li>
+					<!-- END OF STRINGTEMPLATE CODE -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- START ABOUT MODAL DIALOG -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+					<h4 class="modal-title i18n-about"></h4>
+				</div>
+				<div class="modal-body">
+					<p><strong> <span class="i18n-about-pluginname"></span></strong></p>
+					<p><span class="i18n-about-pluginversion"></span></p>
+					<p><span class="i18n-about-plugintext1"></span></p>
+					<p><span class="i18n-about-plugintext2"></span></p>
+					<p><a href="https://www.archimatetool.com" target="_blank">Archi®</a> <span class="i18n-about-plugintext3"></span></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default i18n-close" data-dismiss="modal"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END ABOUT MODAL DIALOG -->
+
+	<!-- START HINT MODAL DIALOG -->
+	<div class="modal fade first-load" id="myModalHint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+						<h4 class="modal-title i18n-hint"></h4>
+				</div>
+				<div class="modal-body">
+						<iframe id="frame-hint" name="hint" onload="if($('#myModalHint').hasClass('first-load')) $('#myModalHint').removeClass('first-load'); else $('#myModalHint').modal({show:true});"></iframe>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default i18n-close" data-dismiss="modal"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END HINT MODAL DIALOG -->
+</body>
+</html>
