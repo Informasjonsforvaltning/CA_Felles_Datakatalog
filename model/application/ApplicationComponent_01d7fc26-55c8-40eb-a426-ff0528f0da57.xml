@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Begrepsadapter"
+    name="Jira-adapter begrepskatalog"
     id="01d7fc26-55c8-40eb-a426-ff0528f0da57"
     documentation="Komponent som konverterer BRs begrepskatalog fra Jira REST format til RDF format"/>
