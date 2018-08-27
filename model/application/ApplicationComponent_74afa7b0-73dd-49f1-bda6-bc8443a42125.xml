@@ -1,5 +1,0 @@
-<archimate:ApplicationComponent
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Begrepskonverterer"
-    id="74afa7b0-73dd-49f1-bda6-bc8443a42125"
-    documentation="Leser begreper fra Jira og kontverterer dem til RDF"/>
