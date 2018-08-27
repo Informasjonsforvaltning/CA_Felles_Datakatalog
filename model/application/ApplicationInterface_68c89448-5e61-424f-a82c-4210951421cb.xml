@@ -1,0 +1,5 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Begrep RDF api"
+    id="68c89448-5e61-424f-a82c-4210951421cb"
+    documentation="REST-api som tilbyr begreper i RDF-format"/>
