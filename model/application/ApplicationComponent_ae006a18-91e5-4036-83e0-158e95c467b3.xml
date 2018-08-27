@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Begrep harvester"
+    id="ae006a18-91e5-4036-83e0-158e95c467b3"
+    documentation="Leser inn begrepsdefinisjoner fra eksterne kilder. Kilden er spesifisert som et http endepunkt der det publiseres begreper på RDF-format."/>

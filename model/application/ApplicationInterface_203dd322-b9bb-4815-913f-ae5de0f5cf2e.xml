@@ -1,0 +1,5 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="REST api"
+    id="203dd322-b9bb-4815-913f-ae5de0f5cf2e"
+    documentation="Standard JIRA Rest-api"/>

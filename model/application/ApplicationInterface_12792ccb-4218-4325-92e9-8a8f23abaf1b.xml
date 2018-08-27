@@ -1,0 +1,5 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Begrep oppslag "
+    id="12792ccb-4218-4325-92e9-8a8f23abaf1b"
+    documentation="REST tjeneste for å slå opp begreper. Begrepene publiseres som RDF eller html"/>

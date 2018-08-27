@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Begrep søkemotor"
+    id="d7d299f5-04f7-432a-849f-c822cc0e7e0c"
+    documentation="Søker etter begreper, for eksempel ved tekstsøk i term eller definisjon, eller ved oppslag på idenfikator."/>
