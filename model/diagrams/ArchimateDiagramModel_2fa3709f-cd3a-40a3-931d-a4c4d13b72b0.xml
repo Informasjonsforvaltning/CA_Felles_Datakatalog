@@ -608,4 +608,15 @@
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_5c30ca11-6472-495b-a173-e089361a9d05.xml#5c30ca11-6472-495b-a173-e089361a9d05"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="34990a51-acbe-4ec6-9ec1-e8e96388c6c0"
+      textAlignment="1"
+      content="AVKLARINGER:&#xD;&#xA;- Vi bør opprette to Locations for hhv Lokal og Nasjonal og relatere dei ulike komponentane til disse.&#xD;&#xA;- Er Registreringstjeneste begrep ein alternativ forvaltningskomponent til feks Jira?">
+    <bounds
+        x="53"
+        y="288"
+        width="308"
+        height="115"/>
+  </children>
 </archimate:ArchimateDiagramModel>
